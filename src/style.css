@@ -1,0 +1,58 @@
+.Navbar {
+  background-color: #21222a;
+  display: flex;
+  align-items: center;
+  padding: 30px 25px;
+  height: 90px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: inter, sans-serif;
+  background-color: #282d35;
+}
+
+.Navbar > h3 {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+}
+.Navbar > img {
+  height: 30px;
+  margin-right: 7px;
+}
+
+.Navbar > h4 {
+  color: #deebf8;
+  font-weight: 600;
+}
+.main {
+  padding: 57px 27px;
+  color: white;
+}
+
+.main > h1 {
+  color: white;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}
