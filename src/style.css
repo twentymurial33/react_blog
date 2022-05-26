@@ -33,6 +33,9 @@ body {
 .main {
   padding: 57px 27px;
   color: white;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .main > h1 {
