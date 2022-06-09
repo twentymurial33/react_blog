@@ -1,16 +1,19 @@
 import React from "react";
 import "../style.css";
+import Footer from "./Footer";
 
 function MainContent() {
   return (
     <div className="main">
-      <h1>Fun Facts About Learning React</h1>
+      <h1>Software Developer</h1>
       <ul className="main--facts">
-        <li>Was Released in 2013</li>
-        <li>Has well over 100K stars in Github </li>
-        <li>is maintained by Facebook</li>
-        <li>Was originally created by Jonathan Walke</li>
+        <p>
+          I'm Murial, a front-end web developer with a focus of building
+          products/solutions while learning and growing and having fun - what is
+          life without fun
+        </p>
       </ul>
+      <Footer />
     </div>
   );
 }
