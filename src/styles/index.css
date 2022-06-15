@@ -1,0 +1,15 @@
+.Navbar {
+  display: flex;
+}
+
+p {
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 220px;
+  background-color: lightblue;
+}

@@ -1,13 +1,10 @@
-import Maincontent from "./components/MainContent";
-import Nav from "./components/Nav";
-
+import Layout from "./components/Layout";
 import "./style.css";
 
 function App() {
   return (
     <div className="container">
-      <Nav />
-      <Maincontent />
+      <Layout />
     </div>
   );
 }

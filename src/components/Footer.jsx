@@ -1,13 +1,12 @@
 import React from "react";
-
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "../styles/index.css";
 
 function Footer() {
   return (
-    <div>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
+    <div className="footer">
+      <footer>
+        <h5> @ 2022 Murial Anindo</h5>
+      </footer>
     </div>
   );
 }
