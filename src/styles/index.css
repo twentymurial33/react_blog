@@ -3,13 +3,35 @@
 }
 
 p {
-  color: white;
+  color: #61dafb;
 }
 
 .footer {
   text-align: center;
   color: white;
   padding: 20px;
-  margin-top: 220px;
+  /* margin-top: 200px; */
   background-color: lightblue;
+}
+
+hr {
+  border: none;
+  width: 40%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  height: 10px;
+  background: linear-gradient(135deg, #eceddc 25%, transparent 25%) -20px 0,
+    linear-gradient(225deg, #eceddc 25%, transparent 25%) -20px 0,
+    linear-gradient(315deg, #eceddc 25%, transparent 25%),
+    linear-gradient(45deg, #eceddc 25%, transparent 25%);
+  background-size: 40px 40px;
+  background-color: #ec173a;
+}
+.main {
+  text-align: center;
+}
+
+img {
+  height: 300px;
 }
