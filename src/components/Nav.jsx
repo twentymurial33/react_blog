@@ -6,6 +6,7 @@ function Nav() {
     <div className="Navbar">
       <h3>Murial's Software Development Journey</h3>
       <ul>
+        <p>Home</p>
         <p>Portfolio</p>
         <p>Blog</p>
       </ul>
