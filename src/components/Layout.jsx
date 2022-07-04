@@ -1,12 +1,14 @@
 import React from "react";
-import Nav from "./Nav";
+// import Nav from "./Nav";
+import Example from "./DarkNav";
 import Footer from "./Footer";
 import Main from "./MainContent";
 
 function Layout() {
   return (
     <div>
-      <Nav />
+      <Example />
+      {/* <Nav /> */}
       <Main />
       <Footer />
     </div>
