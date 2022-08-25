@@ -1,18 +1,16 @@
 import { BrowserRouter as Router, useRoutes } from "react-router-dom";
-import Blog from "./pages/blog/index";
-import Portfolio from "./pages/portfolio/index";
-import Layout from "./components/Layout";
-import "./style.css";
+
+import TopBar from "./components/TopBar";
 
 const AppWrapper = () => {
   let routes = useRoutes([
     {
       path: "/",
-      element: <Layout />,
+      // element: <Layout />,
     },
 
-    { path: "/Blog", element: <Blog /> },
-    { path: "/Portfolio", element: <Portfolio /> },
+    // { path: "/Blog", element: <Blog /> },
+    // { path: "/Portfolio", element: <Portfolio /> },
   ]);
   return routes;
 };
@@ -20,7 +18,8 @@ const AppWrapper = () => {
 function App() {
   return (
     <div className="container">
-      <Layout />
+      <TopBar />
+
       <Router>
         <AppWrapper />
       </Router>
