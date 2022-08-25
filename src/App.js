@@ -1,4 +1,3 @@
-// import Layout from "./components/Layout";
 import { BrowserRouter as Router, useRoutes } from "react-router-dom";
 import Blog from "./pages/blog/index";
 import Portfolio from "./pages/portfolio/index";
