@@ -1,29 +1,17 @@
-import { BrowserRouter as Router, useRoutes } from "react-router-dom";
-
-import TopBar from "./components/TopBar";
-
-const AppWrapper = () => {
-  let routes = useRoutes([
-    {
-      path: "/",
-      // element: <Layout />,
-    },
-
-    // { path: "/Blog", element: <Blog /> },
-    // { path: "/Portfolio", element: <Portfolio /> },
-  ]);
-  return routes;
-};
+import Topbar from "./components/TopBar";
+import Homepage from "./components/pages/home/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="container">
-      <TopBar />
-
-      <Router>
-        <AppWrapper />
-      </Router>
-    </div>
+    <Router>
+      <Topbar />
+      <Routes>
+        <Route exact path="/">
+          <Homepage />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
