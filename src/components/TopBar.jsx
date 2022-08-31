@@ -4,10 +4,10 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <i class="fa-brands fa-linkedin"></i>
+        <i className="fa-brands fa-linkedin"></i>
 
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-medium"></i>
+        <i className="fa-brands fa-github"></i>
+        <i className="fa-brands fa-medium"></i>
       </div>
       <div className="topRight">
         <img src="" alt="" />
